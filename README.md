@@ -1,6 +1,6 @@
 # Capistrano::Subset::Fix
 
-TODO: Write a gem description
+fix capistrano block when use max_hosts.
 
 ## Installation
 
@@ -18,7 +18,9 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'capistrano-scm-jenkins'
+```
 
 ## Contributing
 

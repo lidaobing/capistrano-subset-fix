@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Capistrano::Subset::Fix::VERSION
   spec.authors       = ["LI Daobing"]
   spec.email         = ["lidaobing@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
-  spec.homepage      = ""
+  spec.description   = %q{fix capistrano block when use max_hosts}
+  spec.summary       = %q{fix capistrano block when use max_hosts}
+  spec.homepage      = "https://github.com/lidaobing/capistrano-subset-fix"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
@@ -18,6 +18,7 @@ Gem::Specification.new do |spec|
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ["lib"]
 
+  spec.add_dependency 'capistrano', '~> 2.0'
   spec.add_development_dependency "bundler", "~> 1.3"
   spec.add_development_dependency "rake"
 end
