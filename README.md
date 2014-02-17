@@ -19,7 +19,8 @@ Or install it yourself as:
 ## Usage
 
 ```ruby
-require 'capistrano-scm-jenkins'
+gem 'capistrano-subset-fix'
+require 'capistrano-subset-fix'
 ```
 
 ## Contributing
