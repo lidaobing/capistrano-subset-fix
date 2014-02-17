@@ -18,6 +18,8 @@ Or install it yourself as:
 
 ## Usage
 
+add following lines to `config/deploy.rb`
+
 ```ruby
 gem 'capistrano-subset-fix'
 require 'capistrano-subset-fix'
